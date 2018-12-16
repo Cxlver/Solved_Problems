@@ -3,10 +3,8 @@ def birthdayCakeCandles(ar):
 
     count_c = 0
 
-    dupl = set([x for x in ar if ar.count(x) > 1])
-
     for n in range(ar_count):
-        if ar[n] in dupl:
+        if ar[n] == max(ar):
             count_c += 1
         else:
             count_c += 0
