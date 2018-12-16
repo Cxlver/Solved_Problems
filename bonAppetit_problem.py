@@ -13,7 +13,7 @@ def bonAppetit(bill, k, charged):
     elif charged < realCharge:
         return "You're too kind!"
     else:
-        return charged - realCharge
+        return int(charged - realCharge)
 
 
 if __name__ == '__main__':
